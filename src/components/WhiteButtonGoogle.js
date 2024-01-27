@@ -1,5 +1,9 @@
 import { useCallback } from "react";
 import { useNavigate, Link } from "react-router-dom";
+import google from "../images/googleicon-1@2x.png"
+import apple from "../images/apple-1@2x.png"
+// import google from "../images/googleicon-1@2x.png"
+
 
 const WhiteButtonGoogle = () => {
   const navigate = useNavigate();
@@ -26,7 +30,7 @@ const WhiteButtonGoogle = () => {
           <img
             className="h-[15.4px] w-[15.4px] relative overflow-hidden shrink-0 object-cover z-[2]"
             alt=""
-            src="/googleicon-1@2x.png"
+            src={google}
           />
           <div className="flex-1 relative text-xs font-montserrat text-secondary-text text-center z-[2]">
             Sign in with Google
@@ -39,7 +43,7 @@ const WhiteButtonGoogle = () => {
           <img
             className="h-[15.4px] w-[12.6px] relative overflow-hidden shrink-0 object-cover z-[2]"
             alt=""
-            src="/apple-1@2x.png"
+            src={apple}
           />
           <input
             className="w-[calc(100%_-_66.6px)] [border:none] [outline:none] font-montserrat text-xs bg-[transparent] h-[16.5px] flex-1 relative text-secondary-text text-center flex items-center justify-center min-w-[72px] z-[2]"

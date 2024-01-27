@@ -2,6 +2,10 @@ import { useState, useRef } from "react";
 import Menu1 from "../components/Menu1";
 import Papa from "papaparse";
 import { Select, Option } from "@material-tailwind/react";
+import mask from '../images/mask-group@2x.png'
+import vector from '../images/vector1.svg'
+import excel from '../images/frame-76821.svg'
+import icon from "../images/icon.svg"
 
 const Upload = () => {
   // const [uploadDisabled, setUploadDisabled] = useState(false);
@@ -109,13 +113,13 @@ const Upload = () => {
                 className="h-[23px] w-[18px] relative"
                 loading="eager"
                 alt=""
-                src="/vector1.svg"
+                src={vector}
               />
               <img
                 className="h-[30px] w-[30px] relative object-cover"
                 loading="eager"
                 alt=""
-                src="/mask-group@2x.png"
+                src={mask}
               />
             </div>
           </div>
@@ -126,7 +130,7 @@ const Upload = () => {
                   className="w-9 h-9 relative"
                   loading="eager"
                   alt=""
-                  src="/frame-76821.svg"
+                  src={excel}
                 />
                 <div className="relative leading-[24px]">
                   {selectedFileName ? (
@@ -167,7 +171,7 @@ const Upload = () => {
                 <img
                   className="h-6 w-6 relative min-h-[24px]"
                   alt=""
-                  src="/icon.svg"
+                  src={icon}
                 />
                 <div className="relative text-sm leading-[24px] font-semibold font-paragraph-ui-type-text-2xl-s text-light-gohan text-left">
                   Upload

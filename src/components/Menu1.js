@@ -1,3 +1,11 @@
+import subtract from "../images/subtract.svg"
+import iconlyboldcategory from "../images/iconlyboldcategory@2x.png"
+import chart from "../images/chart1@2x.png"
+import iconlyboldticket from "../images/iconlyboldticket@2x.png"
+import iconlybolddocument from "../images/iconlybolddocument@2x.png"
+import calendar from "../images/calendar@2x.png"
+import iconlyboldnotification from "../images/iconlyboldnotification@2x.png"
+import iconlyboldsetting from "../images/iconlyboldsetting@2x.png"
 const Menu1 = () => {
   return (
     <nav className="m-0 self-stretch bg-light-gohan flex flex-col items-start justify-start pt-[51px] px-0 pb-[480px] gap-[39px] text-left text-base text-text font-nunito mq1050:pt-[33px] mq1050:pb-[312px] mq1050:box-border mq450:pt-[21px] mq450:pb-[203px] mq450:box-border">
@@ -8,13 +16,13 @@ const Menu1 = () => {
             <img
               className="absolute top-[0px] left-[0px] w-full h-full hidden z-[1]"
               alt=""
-              src="/subtract.svg"
+              src={subtract}
             />
             <img
               className="absolute top-[0px] left-[0px] w-full h-full z-[2]"
               loading="eager"
               alt=""
-              src="/subtract.svg"
+              src={subtract}
             />
           </div>
           <h3 className="m-0 h-[33px] relative text-inherit font-semibold font-inherit inline-block z-[1] mq450:text-lgi">
@@ -28,7 +36,7 @@ const Menu1 = () => {
             className="h-6 w-6 relative object-cover min-h-[24px] z-[1]"
             loading="eager"
             alt=""
-            src="/iconlyboldcategory@2x.png"
+            src={iconlyboldcategory}
           />
           <div className="h-[22px] relative font-semibold inline-block z-[1]">
             Dashboard
@@ -41,7 +49,7 @@ const Menu1 = () => {
                 className="absolute top-[13px] left-[33px] w-5 h-[22px] object-cover z-[1]"
                 loading="eager"
                 alt=""
-                src="/chart1@2x.png"
+                src={chart}
               />
               <div className="absolute top-[0px] left-[0px] rounded-tl-none rounded-tr-8xs rounded-br-8xs rounded-bl-none [background:linear-gradient(90deg,_#aca9ff,_rgba(172,_169,_255,_0))] w-full h-full opacity-[0.2] z-[2]" />
             </div>
@@ -56,7 +64,7 @@ const Menu1 = () => {
               className="w-6 h-[16.4px] relative object-cover z-[1]"
               loading="eager"
               alt=""
-              src="/iconlyboldticket@2x.png"
+              src={iconlyboldticket}
             />
           </div>
           <div className="relative font-semibold inline-block h-[13px] opacity-[0.5] z-[1]">
@@ -70,7 +78,7 @@ const Menu1 = () => {
             className="h-[26.4px] w-6 relative object-cover z-[1]"
             loading="eager"
             alt=""
-            src="/iconlybolddocument@2x.png"
+            src={iconlybolddocument}
           />
           <div className="h-[22px] relative font-semibold inline-block opacity-[0.5] z-[1]">
             Schedule
@@ -83,7 +91,7 @@ const Menu1 = () => {
             className="h-[26.4px] w-6 relative object-cover z-[1]"
             loading="eager"
             alt=""
-            src="/calendar@2x.png"
+            src={calendar}
           />
           <div className="h-[22px] relative font-semibold inline-block opacity-[0.5] z-[1]">
             Calendar
@@ -96,7 +104,7 @@ const Menu1 = () => {
             className="h-[26.4px] w-6 relative object-cover z-[1]"
             loading="eager"
             alt=""
-            src="/iconlyboldnotification@2x.png"
+            src={iconlyboldnotification}
           />
           <div className="h-[22px] relative font-semibold inline-block opacity-[0.5] z-[1]">
             Notification
@@ -109,7 +117,7 @@ const Menu1 = () => {
             className="h-[26.4px] w-6 relative object-cover z-[1]"
             loading="eager"
             alt=""
-            src="/iconlyboldsetting@2x.png"
+            src={iconlyboldsetting}
           />
           <div className="relative font-semibold opacity-[0.5] z-[1]">
             Settings

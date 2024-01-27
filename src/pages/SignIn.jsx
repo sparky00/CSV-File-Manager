@@ -1,4 +1,11 @@
 import WhiteButtonGoogle from "../components/WhiteButtonGoogle";
+import leftvector from "../images/left-side@2x.png"
+import vector2 from "../images/vector@2x.png"
+import vector3 from "../images/vector-1@2x.png"
+import vector4 from "../images/vector-2.svg"
+import vector5 from "../images/vector-3.svg"
+import vector6 from "../images/vector-4.svg"
+import vector7 from "../images/vector-7.svg"
 
 const SignIn = () => {
   return (
@@ -15,20 +22,20 @@ const SignIn = () => {
             className="h-11 w-11 relative object-cover"
             loading="eager"
             alt=""
-            src="/vector@2x.png"
+            src={vector2}
           />
           <img
             className="h-[41px] w-[42px] relative object-cover"
             loading="eager"
             alt=""
-            src="/vector-1@2x.png"
+            src={vector3}
           />
           <div className="h-12 w-12 relative overflow-hidden shrink-0">
             <img
               className="absolute h-[74.58%] w-9/12 top-[12.5%] right-[12.5%] bottom-[12.92%] left-[12.5%] max-w-full overflow-hidden max-h-full"
               loading="eager"
               alt=""
-              src="/vector-2.svg"
+              src={vector4}
             />
           </div>
           <div className="h-12 w-[50px] relative overflow-hidden shrink-0">
@@ -36,12 +43,12 @@ const SignIn = () => {
               className="absolute h-[8.96%] w-[23.8%] top-[46.67%] right-[38.4%] bottom-[44.38%] left-[37.8%] max-w-full overflow-hidden max-h-full"
               loading="eager"
               alt=""
-              src="/vector-3.svg"
+              src={vector5}
             />
             <img
               className="absolute h-[81.25%] w-[71%] top-[12.5%] right-[14.6%] bottom-[6.25%] left-[14.4%] max-w-full overflow-hidden max-h-full z-[1]"
               alt=""
-              src="/vector-4.svg"
+              src={vector6}
             />
           </div>
         </div>
@@ -49,14 +56,14 @@ const SignIn = () => {
           <img
             className="absolute h-full w-full top-[0px] right-[0px] bottom-[0px] left-[0px] max-w-full overflow-hidden max-h-full object-cover z-[1]"
             alt=""
-            src="/left-side@2x.png"
+            src={leftvector}
           />
           <div className="absolute top-[54.3px] left-[61px] rounded-[50%] bg-gray-100 w-[80.2px] h-[80.2px] z-[2]" />
           <img
             className="absolute top-[83.7px] left-[59px] w-[82.8px] h-[22px] z-[3]"
             loading="eager"
             alt=""
-            src="/vector-7.svg"
+            src={vector7}
           />
         </div>
       </div>

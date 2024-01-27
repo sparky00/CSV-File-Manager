@@ -1,13 +1,22 @@
 {
   "files": {
     "main.css": "/CSV-File-Manager/static/css/main.9547d8da.css",
-    "main.js": "/CSV-File-Manager/static/js/main.808b3b13.js",
+    "main.js": "/CSV-File-Manager/static/js/main.ca0540b1.js",
+    "static/media/left-side@2x.png": "/CSV-File-Manager/static/media/left-side@2x.3a8aa9ed21f920143ed2.png",
+    "static/media/frame-76821.svg": "/CSV-File-Manager/static/media/frame-76821.d2751f8a973355c2f3ce9af109d0926a.svg",
+    "static/media/vector-4.svg": "/CSV-File-Manager/static/media/vector-4.af705253181c1beacc30f54efda45ba2.svg",
+    "static/media/vector-3.svg": "/CSV-File-Manager/static/media/vector-3.2cedbba6c4e12cca06a06ae9cd811df6.svg",
+    "static/media/vector1.svg": "/CSV-File-Manager/static/media/vector1.4adcee0464508167cad75ef27dfbc200.svg",
     "index.html": "/CSV-File-Manager/index.html",
+    "static/media/subtract.svg": "/CSV-File-Manager/static/media/subtract.f09e95e994e77ea0a7de7a6e8dc3929e.svg",
+    "static/media/vector-2.svg": "/CSV-File-Manager/static/media/vector-2.cc8ed83a98f3d0eb320312908cae0edc.svg",
+    "static/media/icon.svg": "/CSV-File-Manager/static/media/icon.66ca1c0c3b65e7659fbf2558d3707d46.svg",
+    "static/media/vector-7.svg": "/CSV-File-Manager/static/media/vector-7.608de6f74619ea442c0c4bd713665253.svg",
     "main.9547d8da.css.map": "/CSV-File-Manager/static/css/main.9547d8da.css.map",
-    "main.808b3b13.js.map": "/CSV-File-Manager/static/js/main.808b3b13.js.map"
+    "main.ca0540b1.js.map": "/CSV-File-Manager/static/js/main.ca0540b1.js.map"
   },
   "entrypoints": [
     "static/css/main.9547d8da.css",
-    "static/js/main.808b3b13.js"
+    "static/js/main.ca0540b1.js"
   ]
 }
